@@ -1,12 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
 import "./stylesNavbar.css"
 
-const Navbar = (props) => {
+const Navbar = () => {
     return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="row justify-content-around w-75">
+        <div className="row justify-content-around w-100">
             <div className="col-5">
               <a className="navbar-brand" href="#">Start Bootstrap</a>
             </div>
@@ -29,7 +27,7 @@ const Navbar = (props) => {
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contact
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
                 <li><a className="dropdown-item" href="#">Contact via e-mail</a></li>
                 <li><a className="dropdown-item" href="#">Assist page</a></li>
                 <li><a className="dropdown-item" href="#">Tonto el que lo lea</a></li>

@@ -12,7 +12,7 @@ const Card = (props) => {
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">More info...</a>
+              <a href="#" className="btn btn-primary">More info...</a>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Card = (props) => {
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">More info...</a>          
+              <a href="#" className="btn btn-primary">More info...</a>          
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Card = (props) => {
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. The content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">More info...</a>
+              <a href="#" className="btn btn-primary">More info...</a>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Card = (props) => {
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">More info...</a>
+              <a href="#" className="btn btn-primary">More info...</a>
             </div>
           </div>
         </div>
